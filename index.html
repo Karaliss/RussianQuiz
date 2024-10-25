@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruspha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <H1>Alpha<span class="blue">Ru</span><span class="red">ss</span></H1>
+    </nav>
+
+    <div class="quizContainer">
+
+        <div id="letterContainer" class="letterContainer">
+            <h5 id="currentLetter"></h5>
+        </div>
+        
+        <div class="errorContainer">
+            <p id="errMsg" class="errMsg"></p>
+        </div>
+
+        <div class="inputContainer">
+            <input type="text" placeholder="Enter pronouniation" name="" id="usrInput">
+            <button onclick="emptyField()" id="enterBtn"><img src="./img/enter.png" alt="enter image"></button>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
